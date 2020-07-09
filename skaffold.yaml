@@ -1,0 +1,16 @@
+apiVersion: skaffold/v2beta1
+kind: Config
+metadata:
+  name: workshop
+build:
+  artifacts:
+  - image: echo-api
+    context: EchoApi/EchoApi
+  local:
+    push: false
+profiles:
+  - name: remote
+    build:
+      local:
+        push: true
+        useDockerCLI: true

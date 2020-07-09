@@ -1,0 +1,1 @@
+. skaffold build -p remote --default-repo docker.io/hasandries

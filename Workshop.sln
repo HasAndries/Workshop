@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EchoApi", "EchoApi", "{DFB64E36-FF64-443E-A474-12DAEC8FF215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EchoApi", "EchoApi\EchoApi\EchoApi.csproj", "{A6D6A010-652B-481A-92F6-25F38A41ECB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D6A010-652B-481A-92F6-25F38A41ECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D6A010-652B-481A-92F6-25F38A41ECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D6A010-652B-481A-92F6-25F38A41ECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D6A010-652B-481A-92F6-25F38A41ECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6D6A010-652B-481A-92F6-25F38A41ECB7} = {DFB64E36-FF64-443E-A474-12DAEC8FF215}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34A4470F-A019-46BE-94C7-F71B0F30B4D9}
+	EndGlobalSection
+EndGlobal
