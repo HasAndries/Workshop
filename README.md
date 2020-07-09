@@ -1,4 +1,4 @@
-# Integrations.Rebound
+# Workshop
 This repo contains code for workshops and examples.
 
 ## Setup
