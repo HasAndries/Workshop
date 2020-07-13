@@ -6,11 +6,10 @@ resource "azurerm_resource_group" "main" {
 
 resource "azurerm_application_insights" "main" {
   name                = "appi-${var.app}-${var.env}"
-  location            = var.region
+  location            = azurerm_resource_group.main.location
   resource_group_name = azurerm_resource_group.main.name
   
   application_type    = "web"
-  retention_in_days   = 90
 }
 
 resource "azurerm_app_service_plan" "main" {

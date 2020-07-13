@@ -4,7 +4,7 @@ terraform {
     storage_account_name = "fundaworkshoptf"
     container_name       = "azure-echo-api"
     key                  = "dev.terraform.tfstate"
-    tenant_id             = "3a40f900-9165-459e-9aea-7eaf0d933d38"
+    tenant_id            = "3a40f900-9165-459e-9aea-7eaf0d933d38"
   }
 }
 
